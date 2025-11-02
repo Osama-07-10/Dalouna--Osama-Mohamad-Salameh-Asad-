@@ -1,0 +1,397 @@
+/*
+ css/styles.css
+ Student Name: osama asad
+ Student Id: 12400068
+*/
+
+:root {
+    --bg: #faf7f2;
+    --text: hwb(0 12% 88%);
+    --muted: #6b6b6b;
+    --brand: #2f8181;
+    --brand-2: #49a078;
+    --card: #ffffff;
+    --border: #e9e3db;
+
+}
+
+
+body {
+    margin: 0;
+    font-family: "Rubik", sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+}
+
+
+.site-header  {
+    font-family: Rubik;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   color: var(--brand);
+    border: 1px solid var(--border);
+    padding:  12px  70px;
+    font-size: var(--text);
+
+}
+
+.site-header  a{
+    color: var(--brand);
+    text-decoration: none;
+    font-family: Rubik;
+    padding-left: 0px ;
+    margin: 0 4px;
+}
+.image
+{
+    position: relative;
+    width: 100%;
+    height: 700px;
+
+
+
+
+}
+
+.up-hero {
+    font-family: Rubik;
+     align-content: center;
+     position: absolute;
+     left: 50%;
+     top:  36%;
+    font-size: 30%;
+     transform: translate(-50%, -50%);
+
+     padding: 4px 16px 4px  16px;
+
+     background-color: var(--brand-2);
+
+     border-radius:100px ;
+     color: var(--brand);
+
+
+
+
+
+ }
+.hero{
+    font-family: Rubik;
+    position: absolute;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  left: 50%;
+    top: 44%;
+    margin-top: 0px;
+    transform: translate(-50%, -50%);
+align-content: center;
+
+}
+.secend-line {
+    font-family: Rubik;
+    align-content: center;
+    position: absolute;
+    left: 50%;
+    top: 51%;
+
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.button {
+    font-family: Rubik;
+    color: white;
+
+    align-content: center;
+    position: absolute;
+    left: 50%;
+    top: 58%;
+    background-color: var(--brand);
+    border-radius: 100px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    transform: translate(-50%, -50%);
+}
+
+
+.about-container{
+    font-family: Rubik;
+    display: flex;
+    justify-content: center;
+padding: 0  110px;
+
+}
+.about{
+
+
+    width:calc(100%/2);
+    box-shadow: 0 0  13px 0 var(--border);
+background: white;
+    border: 1px solid var(--border);
+    border-radius:  20px;
+    margin: 60px 10px;
+    padding: 16px
+}
+.about-circle{
+     margin-left: 4px;
+     border-radius: 100px;
+     border: 2px solid var(--border);
+     color: var(--muted);
+    padding: 8px;
+ }
+.menu-container{
+    font-family: Rubik;
+    display: flex;
+    justify-content: center;
+    padding: 0px  110px ;
+
+}
+.menu{
+width: calc(100% /3);
+    box-shadow: 0 0  13px 0 var(--border);
+
+    background: white;
+    border: 1px solid var(--border);
+    border-radius:  10px;
+    margin: 0 10px;
+    padding: 16px ;
+
+}
+
+.hidden-note{
+    font-family: Rubik;
+    color: var(--muted);
+}
+
+.about-under{
+    display: flex;
+margin: 10px;
+
+}
+
+.menu-title{
+    font-family: Rubik;
+    margin-left: 120px;
+    padding-top: 30px;
+
+
+
+}
+.inside-box{
+
+    font-family: Rubik;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+.price{
+
+color: var(--brand);
+    margin-left: 100px;
+;
+}
+.hidden-note-menu{
+
+    color: var(--muted);
+margin-top: 0px;
+
+}
+.hidden-border{
+
+    border-bottom-style: dashed;
+    color: var(--muted);
+
+}
+.under-menu{
+    font-family: Rubik;
+    color: var(--muted);
+    margin-left: 120px;
+
+    display: flex;
+
+}
+.hours-container{
+    font-family: Rubik;
+    display: flex;
+    justify-content: center;
+    padding: 0px  110px   ;
+margin-top:60px ;
+
+}
+.hours{
+    width:calc(100% /2);
+    box-shadow: 0 0  13px 0 var(--border);
+
+    background: white;
+    border: 1px solid var(--border);
+    border-radius:  8px;
+    margin: 0 10px;
+    padding: 16px   ;
+
+
+}
+.hours-box{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    border-bottom: 1px dashed var(--muted);
+
+
+}
+.find-container{
+
+    font-family: Rubik;
+    display: flex;
+    justify-content: center;
+    padding: 0  110px;
+margin-top: 60px ;
+
+
+}
+
+.find-paregraph{
+    margin-left:30px;
+}
+.find-hidden-note{
+    margin-left:30px;
+    color: var(--muted);
+}
+.find-us-img {
+    box-shadow: 0 0  13px 0 var(--border);
+
+    width: calc(100% /2);
+      height:300px;
+    background: white;
+    border: 1px solid var(--border);
+
+    border-radius:  8px;
+
+    margin: 30px 10px;
+}
+
+.image-direction{
+
+    position: relative;
+   left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: 100%;
+}
+.site-footer-site-12400068{
+    text-decoration: none;
+background: var(--bg);
+  text-align: center;
+    padding: 10px;
+    border-top: 1px solid var(--border) ;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+.hidden-line{
+    text-decoration: none;
+
+    color: var(--brand);
+}
+
+@media (max-width: 768px) {
+
+ .about-container, .menu-container, .hours-container,.find-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .about, .hours, .find-us,.find-us-img {
+        width: 100%;
+        margin: 10px 0;
+
+    }
+
+
+    body {
+        font-size: 14px;
+    }
+
+    .site-header {
+
+            padding:  12px  30px;
+            font-size: var(--text);
+
+
+    }
+    .menu{
+        width: 100%;
+        margin-top: 10px ;
+
+    }
+
+    .menu-title,.under-menu {
+        margin-left:4px;
+        margin-top: 0px;
+    }
+
+    .button {
+        top: 52%;
+        padding: 6px 16px;
+        font-size: 50%;
+    }
+
+    .up-hero {
+        left: 50%;
+        top:  41%;
+        font-size: 30%;
+
+        padding: 0 16px 0  8px;
+
+}
+
+    .hero{
+        font-size: 50%;
+
+        left: 50%;
+        top: 45%;
+
+
+
+    }
+    .secend-line {
+        font-size: 50%;
+        left: 50%;
+        top: 49%;
+
+    }
+    .menu-title{
+        margin-left: 10px;
+        padding-top: 20px;
+
+
+
+    }
+    .find-container{
+
+        font-family: Rubik;
+        display: flex;
+        justify-content: center;
+        padding: 0  110px;
+        margin-top: 60px ;
+        padding: 4px;
+
+
+    }
+.image{
+    height: 600px;
+      }
+}
+

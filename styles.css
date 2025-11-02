@@ -45,6 +45,16 @@ body {
     padding-left: 0px ;
     margin: 0 4px;
 }
+
+.site-header :hover a{
+    color:var(--text);
+    text-decoration: none;
+    font-family: Rubik;
+    padding-left: 0px ;
+    margin: 0 4px;
+}
+
+
 .image
 {
     position: relative;
@@ -299,10 +309,15 @@ background: var(--bg);
 
 
 }
-.hidden-line{
-    text-decoration: none;
 
+
+
+.hidden-line {
+    text-decoration: none;
     color: var(--brand);
+}.hidden-line:hover {
+    text-decoration: none;
+    color: black;
 }
 
 @media (max-width: 768px) {
